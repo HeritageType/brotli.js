@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devongovett/brotli.js.git"
+    "url": "https://github.com/HeritageType/brotli.js.git"
   },
   "keywords": [
     "compress",
@@ -16,9 +16,9 @@
   "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/devongovett/brotli.js/issues"
+    "url": "https://github.com/HeritageType/brotli.js/issues"
   },
-  "homepage": "https://github.com/devongovett/brotli.js",
+  "homepage": "https://github.com/HeritageType/brotli.js",
   "dependencies": {
     "base64-js": "^1.1.2"
   },
@@ -30,6 +30,6 @@
   },
   "scripts": {
     "test": "mocha",
-    "prepublish": "make"
+    "prepare": "make"
   }
 }
